@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project: food photo agent
+# 設定與密碼：只有 .env.example 可以進 git
+.env.*
+!.env.example
+
+# DATA_DIR 的內容（建議 DATA_DIR 放在 repo 外面，這裡是保險）
+data/
+photos/
+*.xlsx
+*.xlsx.tmp
